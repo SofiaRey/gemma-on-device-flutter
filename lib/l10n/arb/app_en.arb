@@ -1,0 +1,152 @@
+{
+    "@@locale": "en",
+    "modelName": "Gemma 3 1B",
+    "@modelName": {
+        "description": "Header title and the role label above every model reply"
+    },
+    "userRoleLabel": "You",
+    "@userRoleLabel": {
+        "description": "Role label above every user message"
+    },
+    "notInstalledState": "Model not installed",
+    "@notInstalledState": {
+        "description": "State label on the download screen"
+    },
+    "checkingCacheState": "Checking model cache",
+    "@checkingCacheState": {
+        "description": "State label while checking whether the model is installed"
+    },
+    "downloadingState": "Downloading",
+    "@downloadingState": {
+        "description": "State label while the model download is in progress"
+    },
+    "loadingModelState": "Loading model into RAM",
+    "@loadingModelState": {
+        "description": "State label while the model is being loaded into memory"
+    },
+    "offlineReadyState": "Offline ready",
+    "@offlineReadyState": {
+        "description": "Header state once the model is loaded and no network is needed"
+    },
+    "generatingState": "Generating",
+    "@generatingState": {
+        "description": "Header state while the model is producing tokens"
+    },
+    "errorState": "Something went wrong",
+    "@errorState": {
+        "description": "State label shown above an error message"
+    },
+    "downloadTitle": "Install once, then answer offline.",
+    "@downloadTitle": {
+        "description": "Headline of the download screen"
+    },
+    "downloadLede": "Gemma 3 1B downloads to app storage. Every answer after that is computed on this phone, with the radios off.",
+    "@downloadLede": {
+        "description": "Paragraph under the download headline"
+    },
+    "specModelKey": "Model",
+    "@specModelKey": {
+        "description": "Spec row key for the model name"
+    },
+    "specFormatKey": "Format",
+    "@specFormatKey": {
+        "description": "Spec row key for the model file format"
+    },
+    "specQuantizationKey": "Quantization",
+    "@specQuantizationKey": {
+        "description": "Spec row key for the quantization scheme"
+    },
+    "specEngineKey": "Engine",
+    "@specEngineKey": {
+        "description": "Spec row key for the inference engine"
+    },
+    "specDownloadSizeKey": "Download size",
+    "@specDownloadSizeKey": {
+        "description": "Spec row key for the download size"
+    },
+    "downloadButtonLabel": "Download model",
+    "@downloadButtonLabel": {
+        "description": "Label of the button that starts the model download"
+    },
+    "downloadCaption": "Runs as a foreground service, so leaving the app will not cancel the transfer.",
+    "@downloadCaption": {
+        "description": "Caption under the download button"
+    },
+    "downloadedKey": "Downloaded",
+    "@downloadedKey": {
+        "description": "Spec row key for bytes downloaded so far"
+    },
+    "rateKey": "Rate",
+    "@rateKey": {
+        "description": "Spec row key for the download rate"
+    },
+    "timeLeftKey": "Time left",
+    "@timeLeftKey": {
+        "description": "Spec row key for the estimated time left"
+    },
+    "destinationKey": "Destination",
+    "@destinationKey": {
+        "description": "Spec row key for where the model file is stored"
+    },
+    "destinationIos": "Application Support",
+    "@destinationIos": {
+        "description": "Where the model file is stored on iOS"
+    },
+    "destinationAndroid": "Internal storage",
+    "@destinationAndroid": {
+        "description": "Where the model file is stored on Android"
+    },
+    "downloadingCaption": "A progress notification keeps the download alive in the background. The OS will not stop it at the nine minute limit.",
+    "@downloadingCaption": {
+        "description": "Caption at the bottom of the downloading screen"
+    },
+    "metricSizeLabel": "On disk",
+    "@metricSizeLabel": {
+        "description": "Stat label for the model file size on disk"
+    },
+    "metricColdLoadLabel": "Cold load",
+    "@metricColdLoadLabel": {
+        "description": "Stat label for the model cold load time"
+    },
+    "metricTpsLabel": "Tokens/sec",
+    "@metricTpsLabel": {
+        "description": "Stat label for tokens per second"
+    },
+    "metricTtftLabel": "First token",
+    "@metricTtftLabel": {
+        "description": "Stat label for time to first token"
+    },
+    "metricMemoryLabel": "Peak memory",
+    "@metricMemoryLabel": {
+        "description": "Stat label for approximate peak memory usage"
+    },
+    "metricsNote": "Peak memory is approximate, sampled from ProcessInfo.currentRss.",
+    "@metricsNote": {
+        "description": "Note under the stat strip"
+    },
+    "emptyTranscriptHint": "Model loaded. Everything from here happens on this phone.",
+    "@emptyTranscriptHint": {
+        "description": "Hint shown in the empty chat transcript once the model is ready"
+    },
+    "tokenCountLabel": "{count, plural, =1{1 token} other{{count} tokens}}",
+    "@tokenCountLabel": {
+        "description": "Token counter next to the model role label while streaming",
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "inputHint": "Ask Gemma",
+    "@inputHint": {
+        "description": "Placeholder of the chat text input"
+    },
+    "stopButtonLabel": "Stop generating",
+    "@stopButtonLabel": {
+        "description": "Label of the button that stops generation"
+    },
+    "retryButtonLabel": "Retry",
+    "@retryButtonLabel": {
+        "description": "Label of the button that retries after an error"
+    }
+}

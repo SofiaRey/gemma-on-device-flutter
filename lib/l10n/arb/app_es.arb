@@ -1,0 +1,152 @@
+{
+    "@@locale": "es",
+    "modelName": "Gemma 3 1B",
+    "@modelName": {
+        "description": "Título de la cabecera y etiqueta de rol sobre cada respuesta del modelo"
+    },
+    "userRoleLabel": "Tú",
+    "@userRoleLabel": {
+        "description": "Etiqueta de rol sobre cada mensaje del usuario"
+    },
+    "notInstalledState": "Modelo no instalado",
+    "@notInstalledState": {
+        "description": "Etiqueta de estado en la pantalla de descarga"
+    },
+    "checkingCacheState": "Comprobando caché del modelo",
+    "@checkingCacheState": {
+        "description": "Etiqueta de estado mientras se comprueba si el modelo está instalado"
+    },
+    "downloadingState": "Descargando",
+    "@downloadingState": {
+        "description": "Etiqueta de estado durante la descarga del modelo"
+    },
+    "loadingModelState": "Cargando modelo en RAM",
+    "@loadingModelState": {
+        "description": "Etiqueta de estado mientras el modelo se carga en memoria"
+    },
+    "offlineReadyState": "Listo sin conexión",
+    "@offlineReadyState": {
+        "description": "Estado de la cabecera cuando el modelo está cargado y no se necesita red"
+    },
+    "generatingState": "Generando",
+    "@generatingState": {
+        "description": "Estado de la cabecera mientras el modelo produce tokens"
+    },
+    "errorState": "Algo salió mal",
+    "@errorState": {
+        "description": "Etiqueta de estado mostrada sobre un mensaje de error"
+    },
+    "downloadTitle": "Instala una vez, responde sin conexión.",
+    "@downloadTitle": {
+        "description": "Titular de la pantalla de descarga"
+    },
+    "downloadLede": "Gemma 3 1B se descarga al almacenamiento de la app. Cada respuesta posterior se calcula en este teléfono, con las radios apagadas.",
+    "@downloadLede": {
+        "description": "Párrafo bajo el titular de descarga"
+    },
+    "specModelKey": "Modelo",
+    "@specModelKey": {
+        "description": "Clave de la fila con el nombre del modelo"
+    },
+    "specFormatKey": "Formato",
+    "@specFormatKey": {
+        "description": "Clave de la fila con el formato del archivo"
+    },
+    "specQuantizationKey": "Cuantización",
+    "@specQuantizationKey": {
+        "description": "Clave de la fila con el esquema de cuantización"
+    },
+    "specEngineKey": "Motor",
+    "@specEngineKey": {
+        "description": "Clave de la fila con el motor de inferencia"
+    },
+    "specDownloadSizeKey": "Tamaño de descarga",
+    "@specDownloadSizeKey": {
+        "description": "Clave de la fila con el tamaño de descarga"
+    },
+    "downloadButtonLabel": "Descargar modelo",
+    "@downloadButtonLabel": {
+        "description": "Etiqueta del botón que inicia la descarga del modelo"
+    },
+    "downloadCaption": "Se ejecuta como servicio en primer plano, así que salir de la app no cancela la transferencia.",
+    "@downloadCaption": {
+        "description": "Texto bajo el botón de descarga"
+    },
+    "downloadedKey": "Descargado",
+    "@downloadedKey": {
+        "description": "Clave de la fila con los bytes descargados"
+    },
+    "rateKey": "Velocidad",
+    "@rateKey": {
+        "description": "Clave de la fila con la velocidad de descarga"
+    },
+    "timeLeftKey": "Tiempo restante",
+    "@timeLeftKey": {
+        "description": "Clave de la fila con el tiempo restante estimado"
+    },
+    "destinationKey": "Destino",
+    "@destinationKey": {
+        "description": "Clave de la fila con la ubicación del archivo del modelo"
+    },
+    "destinationIos": "Application Support",
+    "@destinationIos": {
+        "description": "Dónde se guarda el archivo del modelo en iOS"
+    },
+    "destinationAndroid": "Almacenamiento interno",
+    "@destinationAndroid": {
+        "description": "Dónde se guarda el archivo del modelo en Android"
+    },
+    "downloadingCaption": "Una notificación de progreso mantiene viva la descarga en segundo plano. El sistema no la detendrá en el límite de nueve minutos.",
+    "@downloadingCaption": {
+        "description": "Texto al pie de la pantalla de descarga en curso"
+    },
+    "metricSizeLabel": "En disco",
+    "@metricSizeLabel": {
+        "description": "Etiqueta del tamaño del modelo en disco"
+    },
+    "metricColdLoadLabel": "Carga fría",
+    "@metricColdLoadLabel": {
+        "description": "Etiqueta del tiempo de carga fría del modelo"
+    },
+    "metricTpsLabel": "Tokens/seg",
+    "@metricTpsLabel": {
+        "description": "Etiqueta de tokens por segundo"
+    },
+    "metricTtftLabel": "Primer token",
+    "@metricTtftLabel": {
+        "description": "Etiqueta del tiempo hasta el primer token"
+    },
+    "metricMemoryLabel": "Memoria máx.",
+    "@metricMemoryLabel": {
+        "description": "Etiqueta del uso máximo aproximado de memoria"
+    },
+    "metricsNote": "La memoria máxima es aproximada, muestreada de ProcessInfo.currentRss.",
+    "@metricsNote": {
+        "description": "Nota bajo la franja de métricas"
+    },
+    "emptyTranscriptHint": "Modelo cargado. Desde aquí todo ocurre en este teléfono.",
+    "@emptyTranscriptHint": {
+        "description": "Pista mostrada en el chat vacío cuando el modelo está listo"
+    },
+    "tokenCountLabel": "{count, plural, =1{1 token} other{{count} tokens}}",
+    "@tokenCountLabel": {
+        "description": "Contador de tokens junto a la etiqueta del modelo durante la generación",
+        "placeholders": {
+            "count": {
+                "type": "int"
+            }
+        }
+    },
+    "inputHint": "Pregunta a Gemma",
+    "@inputHint": {
+        "description": "Texto de ejemplo del campo de entrada del chat"
+    },
+    "stopButtonLabel": "Detener generación",
+    "@stopButtonLabel": {
+        "description": "Etiqueta del botón que detiene la generación"
+    },
+    "retryButtonLabel": "Reintentar",
+    "@retryButtonLabel": {
+        "description": "Etiqueta del botón que reintenta tras un error"
+    }
+}
