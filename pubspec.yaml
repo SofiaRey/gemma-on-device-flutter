@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^9.1.1
   flutter_gemma: ^1.6.5
-  flutter_gemma_litertlm: ^1.5.2
+  flutter_gemma_litertlm: ^1.6.1
   flutter_localizations:
     sdk: flutter
   intl: ^0.20.2

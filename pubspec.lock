@@ -250,10 +250,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_gemma
-      sha256: "33d854b96167c324f38058914814de270f7f8c7e73a9733a4c8da71b8182e685"
+      sha256: cc56be546ffcbe4ea708a21d0cc21658b87ac55be99ca81c252daf1394b78f8c
       url: "https://pub.dev"
     source: hosted
-    version: "1.6.5"
+    version: "1.7.0"
   flutter_gemma_embeddings:
     dependency: transitive
     description:
@@ -266,10 +266,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_gemma_litertlm
-      sha256: "9514a8fd382438de1dc36b95922601dde91e0067b1e0fc225ff69d4e16424dab"
+      sha256: "3b88f697099c478ecaca296b14c02a74fd92e2dc48cd04c9c9c42828f8434eac"
       url: "https://pub.dev"
     source: hosted
-    version: "1.5.3"
+    version: "1.6.1"
   flutter_localizations:
     dependency: "direct main"
     description: flutter
